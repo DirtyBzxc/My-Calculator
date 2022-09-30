@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <title>Simple Calculator</title>
+</head>
+<body> 
+    <div class="container">
+        <div class="program">
+            <h1 class="Title">Калькулятор</h1>
+            <form class="calculate" onsubmit="return myFunction()">
+                <p>Введите первое число:</p>
+                <input id="firstNumber" type="number">
+               <p>Введите второе число:</p>
+                <input id="secondNumber" type="number">
+                </form>
+            <form id="buttons" class="operations">
+                <button onclick="button(this);" id="plus"  type="button">+</button>
+                <button onclick="button(this);" id="minus" type="button">-</button>
+                <button onclick="button(this);" id="multiply" type="button">*</button>
+                <button onclick="button(this);" id="divide" type="button">/</button>
+            </form>
+            <div id="showresult" class="result">
+                <input id="btn" type="submit" value="Показать результат"> 
+            </div>
+        </div>
+    
+    </div>
+ <script src="app.js"></script>
+</body>
+</html>

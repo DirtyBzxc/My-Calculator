@@ -1,0 +1,58 @@
+body{
+    font-family: 'Noto Sans Mono', monospace; 
+}
+.container{
+     max-width: 1440px;
+   max-height: 10800px;
+   margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 270px;
+    margin-left: 200px; 
+
+}
+.program
+{
+    background-color: lightgrey;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.calculate
+{
+text-align: center;
+}
+
+#firstNumber
+{
+    text-align: center;
+    width: 75px;
+    border-radius: 5px;
+}
+#secondNumber
+{
+    text-align: center;
+    width: 75px;
+    border-radius: 5px;
+}
+
+
+.operations
+{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.result
+{
+    margin-top: 20px;
+    text-align: center;
+}
+#knopka
+{
+  display: block;
+  margin-top: 20px;
+  margin-left: 37px;
+}
